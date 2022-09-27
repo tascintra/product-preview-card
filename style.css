@@ -90,10 +90,12 @@ main {
 .price-display {
   display: flex;
   align-items: center;
+  gap: 30px;
 }
 
 .price-tag {
   color: var(--d01);
+  padding-right: 0;
 }
 
 .price-tag-st {
