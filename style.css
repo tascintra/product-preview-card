@@ -39,7 +39,38 @@ body {
   background: var(--w-color);
 }
 
+.secn-title { 
+  font-family: var(--body-font);
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: var(--g01);
+}
+
+.main-title {
+  font-family: var(--title-font);
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.price-tag {
+  color: var(--d01);
+}
+
+.price-tag-st {
+  font-size: 1rem;
+}
+
+.body-text {
+  font-family: var(--body-font);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--g01);
+}
+
 .attribution { font-size: 11px; text-align: center; }
+
 .attribution a { 
   color: hsl(228, 45%, 44%);
   font-weight: bolder;
