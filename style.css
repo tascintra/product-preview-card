@@ -1,13 +1,11 @@
 @font-face {
   font-family: 'Montserrat';
   src: url(./fonts/Montserrat-VariableFont_wght.ttf) format('truetype');
-  font-weight: 300;
 }
 
 @font-face {
   font-family: 'Fraunces';
   src: url(./fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf) format('truetype');
-  font-weight: 500;
 }
 
 * {
@@ -86,7 +84,6 @@ main {
   font-variation-settings: "wght" 500;
   color: var(--g01);
   line-height: 1.8rem;
-  padding-right: 20px;
 }
 
 .price-display {
@@ -135,7 +132,6 @@ footer {
 .attribution { 
   font-size: 11px;
   text-align: center;
-  padding-right: 0;
 }
 
 .attribution a { 
