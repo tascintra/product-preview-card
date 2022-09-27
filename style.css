@@ -21,9 +21,22 @@
   --bg-color: #f3eae3;
   --w-color: #fff;
   --b-color: #000;
-
+  
   --body-font: Montserrat, Helvetica, sans-serif;
   --title-font: Fraunces, Georgia, serif;
+}
+
+body {
+  background: var(--bg-color);
+}
+
+.img-mobile { display: none; }
+
+.whole-content {
+  display: flex;
+  justify-items: center;
+  max-width: 800px;
+  background: var(--w-color);
 }
 
 .attribution { font-size: 11px; text-align: center; }
