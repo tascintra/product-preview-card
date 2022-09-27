@@ -49,6 +49,7 @@ main {
   display: flex;
   justify-content: space-between;
   max-width: 800px;
+  margin-top: auto;
 }
 
 .content-container {
@@ -117,9 +118,9 @@ main {
   align-content: center;
 }
 
-/* footer {
+footer {
   margin-top: auto;
-} */
+}
 
 .attribution { 
   font-size: 11px;
