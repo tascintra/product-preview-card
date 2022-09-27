@@ -28,23 +28,41 @@
 
 body {
   background: var(--bg-color);
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
   min-height: 100vh;
 }
 
 .img-desktop {
-  max-width: 100%;
+  max-width: 400px;
+  max-height: 900px;
   display: block;
+  border-radius: 15px 0px 0px 15px;
 }
 
 .img-mobile { display: none; }
 
+main {
+  display: flex;
+  max-width: 800px;
+}
 
 .content-container {
-  margin: 30px;
+  background: var(--w-color);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 300px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.price-display {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .secn-title { 
@@ -75,6 +93,7 @@ body {
   font-size: 1rem;
   font-weight: 700;
   color: var(--g01);
+  line-height: 1.8rem;
 }
 
 .button-add {
