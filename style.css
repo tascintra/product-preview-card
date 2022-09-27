@@ -42,16 +42,10 @@ body {
 
 .img-mobile { display: none; }
 
-main {
-  justify-self: center;
-}
+
 
 .whole-content {
-  display: flex;
-  justify-items: center;
-  max-width: 800px;
-  max-height: 800px;
-  background: var(--w-color);
+
 
 }
 
@@ -89,7 +83,10 @@ main {
   color: var(--g01);
 }
 
-footer {
+.button-add {
+}
+
+.footer {
   margin-top: auto;
 }
 
