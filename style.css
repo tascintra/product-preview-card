@@ -28,15 +28,35 @@
 
 body {
   background: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.img-desktop {
+  max-width: 100%;
+  display: block;
 }
 
 .img-mobile { display: none; }
+
+main {
+  justify-self: center;
+}
 
 .whole-content {
   display: flex;
   justify-items: center;
   max-width: 800px;
+  max-height: 800px;
   background: var(--w-color);
+
+}
+
+.content-container {
+  margin: 30px;
 }
 
 .secn-title { 
@@ -69,9 +89,16 @@ body {
   color: var(--g01);
 }
 
-.attribution { font-size: 11px; text-align: center; }
+footer {
+  margin-top: auto;
+}
+
+.attribution { 
+  font-size: 11px;
+  text-align: center;
+}
 
 .attribution a { 
   color: hsl(228, 45%, 44%);
-  font-weight: bolder;
+  font-weight: 900;
 }
