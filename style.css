@@ -18,6 +18,7 @@
 :root {
   --g01: #787878;
   --d01: #3d8168;
+  --d02: #1b4031;
   --bg-color: #f3eae3;
   --w-color: #fff;
   --b-color: #000;
@@ -109,13 +110,22 @@ main {
   background: var(--d01);
   font-family: var(--body-font);
   font-variation-settings: "wght" 650;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 20px;
   border-radius: 10px;
   display: flex;
-  gap: 10px;
+  gap: 15px;
   justify-content: center;
   align-content: center;
+  transition: 0.1s;
+}
+
+.button-add img {
+  width: 20px;
+}
+
+.button-add:hover {
+  background: var(--d02);
 }
 
 footer {
