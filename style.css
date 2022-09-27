@@ -119,12 +119,12 @@ main {
 
 /* footer {
   margin-top: auto;
-  background-color: limegreen;
 } */
 
 .attribution { 
   font-size: 11px;
   text-align: center;
+  padding-right: 0;
 }
 
 .attribution a { 
