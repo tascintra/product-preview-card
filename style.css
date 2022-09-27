@@ -82,7 +82,7 @@ main {
 .body-text {
   font-family: var(--body-font);
   font-size: 1.2rem;
-  font-weight: 700;
+  font-variation-settings: "wght" 500;
   color: var(--g01);
   line-height: 1.8rem;
   padding-right: 20px;
