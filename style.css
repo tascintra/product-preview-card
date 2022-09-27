@@ -28,10 +28,10 @@
 
 body {
   background: var(--bg-color);
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   min-height: 100vh;
 }
 
@@ -42,12 +42,6 @@ body {
 
 .img-mobile { display: none; }
 
-
-
-.whole-content {
-
-
-}
 
 .content-container {
   margin: 30px;
@@ -84,6 +78,18 @@ body {
 }
 
 .button-add {
+  text-decoration: none;
+  color: var(--w-color);
+  background: var(--d01);
+  font-family: var(--body-font);
+  font-weight: 900;
+  font-size: 0.8rem;
+  padding: 15px 30px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
 }
 
 .footer {
