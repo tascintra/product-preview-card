@@ -74,7 +74,7 @@ main {
 .main-title {
   font-family: var(--title-font);
   font-size: 2.8rem;
-  font-weight: 900;
+  font-variation-settings: "wght" 650;
   padding-right: 40px;
   line-height: 2.8rem;
 }
@@ -108,7 +108,7 @@ main {
   color: var(--w-color);
   background: var(--d01);
   font-family: var(--body-font);
-  font-weight: 900;
+  font-variation-settings: "wght" 650;
   font-size: 1rem;
   padding: 20px;
   border-radius: 10px;
@@ -130,5 +130,5 @@ footer {
 
 .attribution a { 
   color: hsl(228, 45%, 44%);
-  font-weight: 900;
+  font-variation-settings: "wght" 550;
 }
