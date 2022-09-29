@@ -121,6 +121,12 @@ body {
   .button-add:hover {
     background: var(--d02);
   }
+
+  .price-display {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
 }
 
 
@@ -191,12 +197,12 @@ body {
   .button-add:hover {
     background: var(--d02);
   }
-}
 
-.price-display {
-  display: flex;
-  align-items: center;
-  gap: 30px;
+  .price-display {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
 }
 
 .price-tag {
