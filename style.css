@@ -84,7 +84,7 @@ body {
   .body-text {
     font-family: var(--body-font);
     font-size: 0.875rem;
-    font-variation-settings: "wght" 500;
+    font-variation-settings: "wght" 520;
     color: var(--g01);
     line-height: 1.4rem;
   }
@@ -95,7 +95,7 @@ body {
     background: var(--d01);
     font-family: var(--body-font);
     font-variation-settings: "wght" 650;
-    font-size: 0.8rem;
+    font-size: 0.870rem;
     padding: 16px;
     border-radius: 8px;
     display: flex;
