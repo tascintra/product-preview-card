@@ -96,6 +96,30 @@ body {
     color: var(--g01);
     line-height: 1.2rem;
   }
+
+  .button-add {
+    text-decoration: none;
+    color: var(--w-color);
+    background: var(--d01);
+    font-family: var(--body-font);
+    font-variation-settings: "wght" 650;
+    font-size: 0.8rem;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-content: center;
+    transition: 0.1s;
+  }
+  
+  .button-add img {
+    width: 20px;
+  }
+  
+  .button-add:hover {
+    background: var(--d02);
+  }
 }
 
 
@@ -142,6 +166,30 @@ body {
     color: var(--g01);
     line-height: 1.8rem;
   }
+
+  .button-add {
+    text-decoration: none;
+    color: var(--w-color);
+    background: var(--d01);
+    font-family: var(--body-font);
+    font-variation-settings: "wght" 650;
+    font-size: 1.2rem;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-content: center;
+    transition: 0.1s;
+  }
+  
+  .button-add img {
+    width: 20px;
+  }
+  
+  .button-add:hover {
+    background: var(--d02);
+  }
 }
 
 .price-display {
@@ -157,30 +205,6 @@ body {
 
 .price-tag-st {
   font-size: 1rem;
-}
-
-.button-add {
-  text-decoration: none;
-  color: var(--w-color);
-  background: var(--d01);
-  font-family: var(--body-font);
-  font-variation-settings: "wght" 650;
-  font-size: 1.2rem;
-  padding: 20px;
-  border-radius: 10px;
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  align-content: center;
-  transition: 0.1s;
-}
-
-.button-add img {
-  width: 20px;
-}
-
-.button-add:hover {
-  background: var(--d02);
 }
 
 footer {
