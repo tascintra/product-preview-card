@@ -104,17 +104,17 @@ body {
     font-family: var(--body-font);
     font-variation-settings: "wght" 650;
     font-size: 0.8rem;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
     display: flex;
-    gap: 15px;
+    gap: 10px;
     justify-content: center;
     align-content: center;
     transition: 0.1s;
   }
   
   .button-add img {
-    width: 20px;
+    width: 15px;
   }
   
   .button-add:hover {
