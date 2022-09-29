@@ -35,15 +35,6 @@ body {
   width: 100%;
 }
 
-.img-desktop {
-  width: 400px;
-  max-height: 900px;
-  display: block;
-  border-radius: 15px 0px 0px 15px;
-}
-
-.img-mobile { display: none; }
-
 @media screen and (max-width: 800px) {
 
   main {
@@ -92,10 +83,10 @@ body {
   
   .body-text {
     font-family: var(--body-font);
-    font-size: 0.8rem;
+    font-size: 0.875rem;
     font-variation-settings: "wght" 500;
     color: var(--g01);
-    line-height: 1.2rem;
+    line-height: 1.4rem;
   }
 
   .button-add {
@@ -105,7 +96,7 @@ body {
     font-family: var(--body-font);
     font-variation-settings: "wght" 650;
     font-size: 0.8rem;
-    padding: 15px;
+    padding: 16px;
     border-radius: 10px;
     display: flex;
     gap: 10px;
@@ -122,14 +113,16 @@ body {
     background: var(--d02);
   }
 
+  .button-add:active {
+    background: var(--d02);
+  }
+
   .price-display {
     display: flex;
     align-items: center;
     gap: 20px;
   }
 }
-
-
 
 @media screen and (min-width: 801px) {
   main {
@@ -138,6 +131,15 @@ body {
     max-width: 800px;
     margin-top: auto;
   }
+  
+  .img-desktop {
+    width: 400px;
+    max-height: 900px;
+    display: block;
+    border-radius: 15px 0px 0px 15px;
+  }
+
+  .img-mobile { display: none; }
 
   .content-container {
     background: var(--w-color);
