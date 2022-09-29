@@ -97,7 +97,7 @@ body {
     font-variation-settings: "wght" 650;
     font-size: 0.8rem;
     padding: 16px;
-    border-radius: 10px;
+    border-radius: 8px;
     display: flex;
     gap: 10px;
     justify-content: center;
