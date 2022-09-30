@@ -1,5 +1,7 @@
 # Frontend Mentor - Product preview card component
 
+Project was optimized for screen readers with a reading for old price tag. Check it out!
+
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
