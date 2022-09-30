@@ -54,6 +54,13 @@ body {
     border-radius: 10px 10px 0px 0px;
   } */
 
+  .img-perfume { 
+    width: 345px;
+    height: 240px;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+  }
+
   .content-container {
     background: var(--w-color);
     padding: 0px 25px;
@@ -133,6 +140,13 @@ body {
     margin-top: auto;
   }
   
+    .img-perfume {
+    width: 400px;
+    max-height: 900px;
+    display: block;
+    border-radius: 15px 0px 0px 15px;
+  }
+
   /* .img-desktop {
     width: 400px;
     max-height: 900px;
