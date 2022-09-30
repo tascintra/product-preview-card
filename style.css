@@ -45,15 +45,6 @@ body {
     margin-top: auto;
   }
 
-  /* .img-desktop { display: none; }
-
-  .img-mobile { 
-    width: 345px;
-    height: 240px;
-    display: block;
-    border-radius: 10px 10px 0px 0px;
-  } */
-
   .img-perfume { 
     width: 345px;
     height: 240px;
@@ -146,15 +137,6 @@ body {
     display: block;
     border-radius: 15px 0px 0px 15px;
   }
-
-  /* .img-desktop {
-    width: 400px;
-    max-height: 900px;
-    display: block;
-    border-radius: 15px 0px 0px 15px;
-  }
-
-  .img-mobile { display: none; } */
 
   .content-container {
     background: var(--w-color);
